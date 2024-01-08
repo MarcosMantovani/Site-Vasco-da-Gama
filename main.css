@@ -1,0 +1,147 @@
+@font-face {
+    font-family: longShot;
+    src: url(./lib/fonts/Long_Shot.ttf);
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+.navbar{
+    background-color: #FFFFFF;
+}
+
+.navbar img {
+    height: 3pc;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-lojas .nav-link.active:hover,
+.section-title p {
+    color: #000000;
+}
+
+.navbar-toggler {
+    background-color: #FFFFFF;
+}
+
+.section-title {
+    font-family: longShot, sans-serif;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#socio-gigante {
+    background-color: #F3F3F3;
+}
+
+#gigante-da-colina {
+    background-color: #4F4F4F;
+}
+
+#fale-conosco {
+    background-color: #000000;
+}
+
+.text-red {
+    color: #FF0000;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+#noticias .card-body {
+    height: 160px;
+}
+
+#noticias .card img {
+    height: 210px;
+    object-fit: cover;
+}
+
+#noticias .card a:hover {
+    cursor: pointer;
+    color: #FF0000;
+}
+
+#noticias .card {
+    transition: transform 0.3s ease-in-out;
+}
+
+#noticias .card:hover {
+    transform: scale(1.05);
+}
+
+#gigante-da-colina h3 {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.nav-lojas .nav-link,
+.nav-lojas .nav-link.active {
+    color: #000000;
+}
+
+.nav-lojas .nav-link.active {
+    background-color: #8f8f8f;
+}
+
+#fale-conosco button {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.nav-lojas .nav-link:hover,
+.nav-lojas .nav-link.active:hover {
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+.nav-lojas,
+.descricao-loja {
+    background-color: #F3F3F3;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+#gigante-da-colina .col-md-8 img {
+    border-top: 1px solid #F3F3F3;
+    border-left: 1px solid #F3F3F3;
+    border-right: 1px solid #F3F3F3;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    height: 340px;
+    object-fit: contain;
+}
+
+#gigante-da-colina .col-md-8 h3 {
+    border-left: 1px solid #F3F3F3;
+    border-right: 1px solid #F3F3F3;
+    border-bottom: 1px solid #F3F3F3;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#nome-error,
+#email-error,
+#telefone-error,
+#mensagem-error {
+    color: #FFFFFF;
+}
