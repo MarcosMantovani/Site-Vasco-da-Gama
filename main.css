@@ -38,12 +38,13 @@ body {
     color: #000000;
 }
 
-#socio-gigante {
-    background-color: #F3F3F3;
+#carousel,
+#gigante-da-colina {
+    background-color: #cacaca;
 }
 
-#gigante-da-colina {
-    background-color: #4F4F4F;
+#socio-gigante {
+    background-color: #F3F3F3;
 }
 
 #fale-conosco {
@@ -91,7 +92,7 @@ body {
 }
 
 .nav-lojas .nav-link.active {
-    background-color: #8f8f8f;
+    background-color: #cacaca;
 }
 
 #fale-conosco button {
